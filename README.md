@@ -88,7 +88,7 @@ And slowly expands into:
 
 
 
-\*\*Why this museum exists\*\*
+\*\*Why this SPACE exists\*\*
 
 
 
@@ -98,7 +98,7 @@ This is not a random article collection.
 
 
 
-This is a \*\*digital museum of distilled thought\*\*.
+This is a \*\*digital SPACE of distilled thoughts\*\*.
 
 
 
@@ -122,7 +122,7 @@ The central question behind this work is simple:
 
 
 
-&#x20;\*\*The 20 Rooms of the Museum\*\*
+&#x20;\*\*The 20 Rooms of the Archive\*\*
 
 
 
