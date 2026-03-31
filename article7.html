@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exhibit | The Micro-Architecture of the King</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:ital,wght@0,400;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f9f7f2;
+            --text-color: #6C0000; /* Maroon Branding */
+            --body-text: #333;
+            --accent-color: #6b705c; /* Earthy Green */
+            --border-color: #d1d1d1;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--body-text);
+            margin: 0;
+            line-height: 1.8;
+            scroll-behavior: smooth;
+        }
+
+        /* Header Section */
+        .article-header {
+            text-align: center;
+            padding: 80px 20px 40px;
+            background: #fff;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .category-label {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 0.8rem;
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: var(--text-color);
+            font-size: 2.5rem;
+            margin: 20px 0;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* TL;DR Summary Box */
+        .tldr-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background: #f1f1eb;
+            border: 1px dashed var(--accent-color);
+        }
+
+        .tldr-title {
+            font-family: 'Playfair Display', serif;
+            color: var(--text-color);
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: block;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--accent-color);
+            padding-bottom: 5px;
+        }
+
+        .tldr-content {
+            font-size: 0.95rem;
+            font-family: 'Lora', serif;
+            font-style: italic;
+        }
+
+        /* Content Sections */
+        .content-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section { margin-bottom: 60px; }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            color: var(--text-color);
+            font-size: 1.6rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
+
+        .format-label {
+            display: block;
+            font-size: 0.7rem;
+            color: var(--accent-color);
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        p { margin-bottom: 20px; font-size: 1.1rem; }
+
+        .highlight-box {
+            background: #fff;
+            padding: 30px;
+            border-left: 4px solid var(--accent-color);
+            font-family: 'Lora', serif;
+            font-style: italic;
+            margin: 40px 0;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.02);
+        }
+
+        /* Table Design */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+        }
+
+        .comparison-table th {
+            background-color: var(--text-color);
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .comparison-table td {
+            padding: 12px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        /* Footer & Navigation */
+        .article-footer {
+            text-align: center;
+            padding: 80px 20px;
+            background: #fff;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .closing-line {
+            font-family: 'Lora', serif;
+            font-style: italic;
+            font-size: 1.3rem;
+            color: var(--text-color);
+            margin-bottom: 40px;
+            display: block;
+        }
+
+        .back-btn {
+            text-decoration: none;
+            color: var(--accent-color);
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            border: 1px solid var(--accent-color);
+            padding: 12px 25px;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover { background: var(--accent-color); color: white; }
+    </style>
+</head>
+<body>
+
+<header class="article-header">
+    <span class="category-label">Exhibit Room | Legacy & Refinement</span>
+    <h1>The Micro-Architecture of the King: An Anatomy of Abundance</h1>
+</header>
+
+<aside class="tldr-container">
+    <span class="tldr-title">TL;DR Summary</span>
+    <div class="tldr-content">
+        <p>The mango tree teaches the exhausted mind that abundance is not the end goal; it is the starting material. Greatness is achieved through the "Wisdom of the No"—the courage to let go of a thousand stars to produce a single piece of gold.</p>
+    </div>
+</aside>
+
+<main class="content-container">
+
+    <section>
+        <span class="format-label">Context (The Problem)</span>
+        <h2>The Panicle Trap of the Scattered Mind</h2>
+        <p>Many of us live in a permanent "Panicle Stage"—scattered, blooming in a thousand directions, and terrified that letting go of a single blossom equates to failure. We wait for a "sure thing" before committing energy, often missing opportunities because we are too calculating.</p>
+    </section>
+
+    <section>
+        <span class="format-label">Current Root Cause</span>
+        <h2>The Fear of Productive Loss</h2>
+        <p>We view a failed project or a missed opportunity as a tragedy, whereas nature views loss as a biological necessity. We struggle to be "fruitful" in 50 directions at once, failing to realize that concentrated sugar requires the shedding of 99% of our initial blossoms.</p>
+    </section>
+
+    <section>
+        <span class="format-label">Illusion vs. Reality</span>
+        <div class="highlight-box">
+            "Abundance is not the end goal; it is merely the starting material. Greatness isn't found in how much we start, but in what we have the courage to keep." 
+        </div>
+    </section>
+
+    <section>
+        <span class="format-label">System Thinking</span>
+        <h2>The Alchemy of Stress and Longevity</h2>
+        <p>The mango tree (<i>Mangifera indica</i>) possesses unique "superpowers" that distinguish it as the Evergreen King. It transforms environmental stress—dry seasons or cold snaps—into a signal to create beauty, a process known as "floral induction". Unlike rapid-producers that die after fruiting, some mango trees bear fruit for over 300 years, representing a multi-generational legacy of refinement.</p>
+
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>Mango</th>
+                    <th>Jackfruit</th>
+                    <th>Banana</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Flower Strategy</strong></td>
+                    <td>Thousands of tiny, delicate stars </td>
+                    <td>Large, fleshy, club-like spikes </td>
+                    <td>Large, purple, "teardrop" heart </td>
+                </tr>
+                <tr>
+                    <td><strong>Philosophical Value</strong></td>
+                    <td>Legacy & Refinement </td>
+                    <td>Sturdiness & Utility </td>
+                    <td>Renewal & Speed </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <span class="format-label">Practical Direction</span>
+        <h2>The Four-Step Journey to Ripening</h2>
+        <p>To move from a thousand stars to a single gold, we must follow the mango's blueprint of refinement:</p>
+        <ul>
+            <li><strong>Boundless Vision:</strong> Launch a golden vision without immediate fear of failure.</li>
+            <li><strong>Inner Perfection:</strong> Find excellence in the hidden, unseen details.</li>
+            <li><strong>Purposeful Selection:</strong> Master the courage to let the "good" fall away.</li>
+            <li><strong>Resilient Legacy:</strong> Turn the weight of time and stress into concentrated sweetness.</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer class="article-footer">
+    <span class="format-label">A Thought for Reflection</span>
+    <span class="closing-line">"To ripen is not just to grow—it is to refine." </span>
+    
+    <a href="index.html" class="back-btn">← Back to Home</a>
+</footer>
+
+</body>
+</html>
