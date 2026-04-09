@@ -2,7 +2,7 @@ FROM NATURE TO RESPONSIBILITY
 
 
 
-20 Thought Architectures for Future Minds
+21 Thought Architectures for Future Minds
 
 
 
